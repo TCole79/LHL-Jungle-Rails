@@ -31,7 +31,7 @@ class OrdersController < ApplicationController
       source:      params[:stripeToken],
       amount:      cart_subtotal_cents,
       description: "Khurram Virani's Jungle Order",
-      currency:    'cad'
+      currency:    'CAD$'
     )
   end
 
