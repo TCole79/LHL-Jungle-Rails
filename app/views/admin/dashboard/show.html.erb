@@ -1,2 +1,7 @@
-<h1>Admin::Dashboard#show</h1>
-<p>Find me in app/views/admin/dashboard/show.html.erb</p>
+<h1>Welcome to the Jungle! (Dashboard)</h1>
+
+<p>Currently, there are <strong> <%= @products %> </strong> products in the Jungle catalogue! </p>
+<%= link_to "Go to Products", "/admin/products"%>
+<br>
+<br>
+<p>These products are from <strong> <%= @category %> </strong> categories </p>
